@@ -1,0 +1,147 @@
+1. Znacznik <script> async + defer
+
+2. komentarze
+
+3. Zmienne:
+
+    - var
+    - const
+    - let
+    - nazwy zmiennych (case sensitivity, zakazane frazy)
+    - hoisting
+    - var obiekt window
+
+4. Typy danych:
+
+    a) Prymitywne:
+
+        - Number
+        - String
+        - Boolean
+        - Undefined
+        - Null
+
+    b) Złożone:
+
+        - tablice            
+        - obiekty
+
+    c) Referencja w zmiennych - obiekty / tablice
+
+5.  Konstruktory
+
+6. Operatory:
+
+    a) przypisania:
+
+        - przypisanie = ,
+        - dodanie wartości +=
+        - odjęcie wartości -=
+        - pomnożenie wartości *=
+        - podzielenie wartości /=
+        - dzielenie modulo %= (przydatne przy spr czy liczba jest parzysta)
+
+    b) inkrementacja i dekrementacja 
+
+    c) porównania:
+
+        - czy równe ==
+        - czy równa wartość i typ ===
+        - czy wartość nierówna !=
+        - czy wartość i typ nierówny !==
+        - czy mniejsze <
+        - czy większe >
+        - czy mniejsze lub równe <=
+        - czy większe lub równe >=
+
+    d) logiczne: 
+
+        - and &&
+        - or ||
+        - xor ^
+        - negacja ! 
+
+    e) oparatory logiczne w równaniach:
+
+        - const a = 100 && 200 // 200
+        - const a = 100 || 200 // 100
+
+
+7. Typeof
+
+8. Operacje na typach:
+
+    - konkatenacja (dodawanie stringów)
+    - konwersja przez konstruktor
+    - konwersja stringów: 
+        * "" + nr
+        * nr.toString(system liczbowy) // 
+        * String(number)
+    - konwersja liczb:
+        * Number() - gdy któryś nie jest liczbą to zwraca NaN
+        * parseInt(system liczbowy)
+        * parseInt() - gdy pierwszy znak nie może być liczbą, to zwraca NaN
+    - operacje na liczbach:
+        * nr.toFixed(ilosc po przecinku)
+    - konwersja na boolean Boolean lub !! (podwójna negacja)
+
+9. Instrukcje warunkowe:
+
+    - if
+    - if else
+    - if else if else
+    - operator warunkowy (ternary operator) a ? a : b
+    - switch
+
+    // zadanie - sprawdzanie wieku dziecko, dorosły, dziadek
+
+10. Math
+
+11. Pętle:
+
+    - for
+    - while
+    - do ... while
+    - break
+    - continue
+    - pętla w pętli
+
+12. Operacje na stringach:
+
+    - '', "", ``
+    - zmienne w tekście
+    - str.length
+    - str.charAt(0)
+    - toUpperCase
+    - toLowerCase
+    - indexOf, lastIndexOf
+    - includes // ES6
+    - substr(start, length)
+    - substring(start, stop)
+    - slice(start, stop)
+    - split // zamiana str na arr
+
+13. Operacje na tablicach:
+
+    - arr.length
+    - dodawanie elementów do tablicy:
+        * arr.push(element)
+        * arr[arr.length] = element
+    - arr.push(el) , arr.pop() // koniec tablicy
+    - arr.unshift(el), arr.shift() // początek tablicy
+    - Array.isArray(arr)
+    - tab.join('') // scalanie w tekst
+    - arr.reverse() 
+    - arr.indexOf(el) i arr.lastIndexOf(el)
+    - arr.concat(arr2) // łączenie tablic
+    - arr.slice(from, to) // zwracanie kawałka tablicy
+    - arr.splice(index, length) // ile usunąć z tablicy
+    - pętla po tablicy
+    - tablice wielowymiarowe
+
+14. Funkcje:
+
+    - co to są Funkcje
+    - parametry funkcji
+    - domyślne parametry funkcji
+    - parametr arguments // ...rest w ES6

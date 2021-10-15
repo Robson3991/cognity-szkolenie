@@ -1,0 +1,40 @@
+1. Pobieranie elementów:
+
+    - querySelector
+    - querySelectorAll // kolekcja
+    - getElements 
+    - żywe kolekcje
+
+    https://kursjs.pl/kurs/dom/live-colection-test.html
+
+2. Pętle po kolekcjach:
+
+    - for
+    - forEach
+    - map // spread , Array.from(collections).map
+
+3. Gotowe kolekcje:
+
+    document.body //element body
+
+    document.all //kolekcja ze wszystkimi elementami na stronie
+    document.forms //kolekcja z formularzami na stronie
+    document.images //kolekcja z grafikami img na stronie
+    document.links //kolekcja z linkami na stronie
+    document.anchors //kolekcja z linkami będącymi kotwicami
+
+4. Właściwości elementów:
+
+    - innerHTML
+    - outerHTML
+    - innerText // bez styli
+    - textContent // + style
+
+5. Atrybuty:
+
+    - el.getAttribute(name)
+    - el.hasAttribute(name)
+    - customowe data // ciekawostka
+
+6. Relacje między elementami - course/collections.js
+

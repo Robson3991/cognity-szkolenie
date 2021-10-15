@@ -1,0 +1,17 @@
+Baza wiedzy:
+
+MDN - https://developer.mozilla.org/
+W3School - https://www.w3schools.com/js/default.asp
+
+Narzędzia:
+
+Wersje JS - http://kangax.github.io/compat-table/es5/
+Can I use - https://caniuse.com/
+
+Interaktywne zadania:
+
+https://www.codecademy.com/
+https://www.freecodecamp.org/
+
+
+
