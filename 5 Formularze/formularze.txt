@@ -1,0 +1,12 @@
+1. Pola formularza:
+
+    - input.value
+    - input.disabled
+    - input.checked
+
+2. Zdarzenia (plik forms.js):
+
+    - change
+    - input
+    - focus
+    - blur

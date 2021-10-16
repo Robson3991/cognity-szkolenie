@@ -17,5 +17,9 @@ Transpilator ES6 na es5
 
 https://es6console.com/
 
+Testowanie regex
+
+https://regex101.com/
+
 
 

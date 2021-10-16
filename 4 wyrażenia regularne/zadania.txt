@@ -1,0 +1,4 @@
+1. W VS code
+
+    a) Na stronie blogowej wszystkie daty wstawić w znacznik <strong>
+    b) Na stronie about wszystkie nr. tel. podmienić na prawidłowy znacznik <a> dla nr. tel.
