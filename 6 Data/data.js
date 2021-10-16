@@ -15,3 +15,13 @@ console.log( now.getTime() )
                 Tak zwany czas unixowy
 */
 
+// 2. Porównywanie dat
+
+const second = 1000;
+const minute = 60;
+const hour = 60;
+const day = 24
+
+const milisecondDay = second * minute * hour * day;
+
+// 3. toLocaleDateString

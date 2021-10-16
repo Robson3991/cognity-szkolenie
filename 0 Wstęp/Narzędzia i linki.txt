@@ -1,25 +1,25 @@
 Baza wiedzy:
 
-MDN - https://developer.mozilla.org/
-W3School - https://www.w3schools.com/js/default.asp
+    MDN - https://developer.mozilla.org/
+    W3School - https://www.w3schools.com/js/default.asp
 
 Narzędzia:
 
-Wersje JS - http://kangax.github.io/compat-table/es5/
-Can I use - https://caniuse.com/
+    Wersje JS - http://kangax.github.io/compat-table/es5/
+    Can I use - https://caniuse.com/
 
 Interaktywne zadania:
 
-https://www.codecademy.com/
-https://www.freecodecamp.org/
+    https://www.codecademy.com/
+    https://www.freecodecamp.org/
 
 Transpilator ES6 na es5
 
-https://es6console.com/
+    https://es6console.com/
 
 Testowanie regex
 
-https://regex101.com/
+    https://regex101.com/
 
 
 

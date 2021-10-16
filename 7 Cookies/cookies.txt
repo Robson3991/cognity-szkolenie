@@ -1,0 +1,19 @@
+1. Postać ciasteczka:
+
+https://developer.mozilla.org/pl/
+
+document.cookie = 'nazwa=wartosc'; 
+
+document.cookie = "name=Robert; expires=Tue, 19 Jan 2038 03:14:07 GMT; path=/; domain=127.0.0.1 secure"
+
+path - ścieżka która ma dostęp do ciasteczka
+domain - z jaqkiej domeny będzie dostępne ciastko
+expires - data do której ciastko ma być aktywne
+max-age - liczba sekund od teraz po ktorym ciastko zostanie usunięte
+secure - tylko z SSL (https)
+httpOnly - nie będziemy mieli dostępu z poziomu JS-a
+
+2. Zadanie - funkcja do pobierania ciasteczka
+3. Zadanie - funkcja do usuwania ciasteczka
+4. Zadanie - funkcja do dodawania ciasteczka
+
