@@ -13,5 +13,9 @@ Interaktywne zadania:
 https://www.codecademy.com/
 https://www.freecodecamp.org/
 
+Transpilator ES6 na es5
+
+https://es6console.com/
+
 
 
