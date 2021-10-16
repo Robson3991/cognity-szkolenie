@@ -1,0 +1,17 @@
+1. Nasłuchiwanie zdarzeń
+
+2. event - parametr funkcji
+
+3. prevent default
+
+4. This
+
+5. capturing / bubbling (true w event listener) // https://kursjs.pl/kurs/events/event-phase.png
+
+6. e.stopPropagation / e.stopImmediatePropagation()
+
+7. e.target - kliknięty element, e.currentTarget - element wywołujący
+
+8. removeEventListener
+
+9. element.onclick 
