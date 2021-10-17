@@ -1,7 +1,3 @@
-const tab = ["Marcin", "Ania", "Piotrek", "Grześ"];
-
-tab.length;
-
 // 1. Sortowanie tablic
 
 const tab = ["Marcin", "Ania", "Piotrek", "Grześ"];

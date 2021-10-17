@@ -4,14 +4,14 @@
 
 3. prevent default
 
-4. This
+4. This - w function wskazuje na element wywołujący w arrow function na window
 
 5. capturing / bubbling (true w event listener) // https://kursjs.pl/kurs/events/event-phase.png
 
-6. e.stopPropagation / e.stopImmediatePropagation()
+6. e.stopPropagation / e.stopImmediatePropagation() - zatrzymuje również inne clicki danego elementu
 
 7. e.target - kliknięty element, e.currentTarget - element wywołujący
 
 8. removeEventListener
 
-9. element.onclick 
+9. element.onclick - problem w tym, że nie można go odpiąć i można przypisać tylko raz

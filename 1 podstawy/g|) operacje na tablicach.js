@@ -8,7 +8,7 @@ console.log(names.length)
 names.push('Stefan');
 console.log(names);
 
-// names[names.length] = 'Roman';
+names[names.length] = 'Roman';
 console.log(names)
 
 // 3. Usuwanie elementów z końca nameslicy
@@ -52,6 +52,8 @@ console.log(lastOne)
 // 10. Łączenie tablic
 const mergeArrays = names.concat(numbers);
 console.log(mergeArrays);
+
+[...names, ...numbers] // ES6
 
 // 11. Zwracanie kawałka tablicy
 

@@ -14,11 +14,12 @@ console.log( /[abc]+/.test("zuzy") ) //false
 /[a-zA-Z]/ //a, b, c, A, B, C, ..., z, Z
 /[a-zA-Z0-9]/ //a, b, c, A, B, C, ..., z, Z, 0, ... 9
 
-// 3. Negacja
+// 3. Negacja ^
 
 console.log( /[a-zA-Z]/.test("Ala ma kota") ) //true
-console.log( /^[^0-9]+$/.test("Ala ma kota") ) //true
-console.log( /^[^0-9]+[0-9]+$/.test("Ala ma kota 007") ) //true
+console.log( /[^a-zA-Z]+$/.test("Ala ma kota") ) // false
+console.log( /[^0-9]+$/.test("Ala ma kota") ) //true
+console.log( /[^0-9]+[0-9]+$/.test("Ala ma kota 007") ) //true
 
 // 4. Klasy znaków
 

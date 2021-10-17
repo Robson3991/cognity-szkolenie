@@ -1,0 +1,1 @@
+1. Pobranie wartości z pól formularza przy jego wysyłaniu zwrócenie ich w formie obiektu
