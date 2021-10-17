@@ -25,3 +25,5 @@ const day = 24
 const milisecondDay = second * minute * hour * day;
 
 // 3. toLocaleDateString
+
+// 4. Date.now()
