@@ -2,7 +2,7 @@
 
     - querySelector
     - querySelectorAll // kolekcja
-    - getElements 
+    - getElementsBy / getElementBy
     - żywe kolekcje
 
     https://kursjs.pl/kurs/dom/live-colection-test.html
