@@ -2,11 +2,11 @@
 
 const text = 'biegł sobie mały kot. Gonił go wielki kot'
 
-const reg = /kot/;
+const reg = /kot/i;
 
 //lub za pomocą konstruktora
 
-const reg2 = new RegExp("kot" , "gi");
+const reg2 = new RegExp("kot" , "ig");
 
 console.log(reg.test(text)) 
 console.log(reg2.test(text))
@@ -34,6 +34,8 @@ console.log( /kot$/.test("kot i pies") ) //false
 console.log( /pan.*/.test("pan") ) // true
 console.log( /pan.*/.test("pani") ) // true
 
+// ?.+=.*
+
 // Znak + oznacza 1 lub więcej wystąpień poprzedzającego znaku lub grupy.
 
 const req = /pani+/
@@ -46,7 +48,7 @@ console.log( req.test("pan") ) // false
 
 console.log( /pani{1}/.test("pan") ); // false
 console.log( /pani{1}/.test("pani") ); // true
-console.log( /pani{1}/.test("paniii") ); // true
+console.log( /pani{1,}/.test("paniii") ); // true
 console.log( /pani{3}/.test("pani") ); // false
 
 // Znak ? oznacza 0 lub 1 wystąpienie poprzedzającego znaku lub grupy.
