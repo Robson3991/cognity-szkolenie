@@ -1,5 +1,3 @@
-
-
 // Math.ceil(liczba) - Zaokrąglenie w górę
 Math.ceil(2.01) // 3
 Math.ceil(2) // 2
@@ -30,4 +28,4 @@ Math.min(1, 2, 3, 4) // 1
 const min = 3;
 const max = 7;
 
-const result =  Math.floor(Math.random() * (max-min+1) + min);
+const result = Math.floor(Math.random() * (max-min+1) + min);
