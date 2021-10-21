@@ -2,6 +2,9 @@
 
 2. komentarze
 
+    a) jednolinijkowe - // komentarz
+    b) wielolinijkowe /* komentarz */
+
 3. Zmienne:
 
     - var
@@ -9,7 +12,7 @@
     - let
     - nazwy zmiennych (case sensitivity, zakazane frazy)
     - hoisting
-    - var obiekt window
+    - var - obiekt window
 
 4. Typy danych:
 
@@ -23,7 +26,7 @@
 
     b) Złożone:
 
-        - tablice            
+        - tablice    
         - obiekty
 
     c) Referencja w zmiennych - obiekty / tablice

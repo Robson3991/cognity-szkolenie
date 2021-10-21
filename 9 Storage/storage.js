@@ -3,7 +3,7 @@
 // Przypisywanie do sessionStorage wygląda analogicznie
 // zmienia się tylko zapis z local na session w poniższych przykładach
 
-localStorage.setItem("myElement", "Przykładowa wartość"); //zalecany sposób
+localStorage.setItem("myElement", [1,2,3]); //zalecany sposób
 localStorage.myElement = "Przykładowa wartość";
 localStorage["myElement"] = "Przykładowa wartość"
 

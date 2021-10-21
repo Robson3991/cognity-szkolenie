@@ -14,7 +14,7 @@ console.log(isPalidrom('ikar łapał raki'));
 const alphabet = 'aąbcćdeęfghijlklłmnńoópqrsśtuvwxyzżź';
 
 function encrypt(str) {
-    return str.split('').map(letter => {
+    return str.split('').map(function(letter) {
         const indexInAlphabet = alphabet.indexOf(letter.toLowerCase());
         return alphabet[indexInAlphabet + 1];
     }).join('');

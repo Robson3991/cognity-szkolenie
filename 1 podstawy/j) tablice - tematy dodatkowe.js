@@ -84,7 +84,8 @@ console.log(upperTabMap)
 
 const tab = [1, 3, 5, 8, 9];
 
-const allEven = tab.every(el => el % 2 === 0);
+const allEven = tab.every(function(el) { return el % 2 === 0 });
+const allEven = tab.every(el => el % 2 === 0); // to samo jak powyżej ale zapis z ES6
 
 console.log(allEven); //false
 
@@ -97,21 +98,26 @@ const tab = [
 ];
 
 //a może chociaż jeden user jest pełnoletni?
-console.log( tab.some(el => el.age >= 18) ); //true
 
-// 8. Metoda filter
+console.log( tab.some(function(el) { return el.age >= 18 }) ); //true
+console.log( tab.some(el => el.age >= 18) ); //true - zapis z ES6
+
+// 8. Metoda filter - filtrowanie wyników
 
 const tab = ["Marcin", "Monika", "Magda", "Monika", "Piotrek"];
 
-const woman = tab.filter(name => name.endsWith("a"));
+const woman = tab.filter(function(name){ return name.endsWith("a")});
+const woman = tab.filter(name => name.endsWith("a")); // to samo jak powyżej ale zapis z ES6
 
 console.log(woman);
 
-// 9. Metoda reduce
+// 9. Metoda reduce - funkcja do wykonywania obliczeń na każdym kolejnym elemencie z tablicy
+// w poniższych funkcjach akurat użyłem mnożenia, ale równie dobrze można wykonać inne działanie
 
 const tab = [3, 2, 4, 2];
 
-const result = tab.reduce((a, b) => a * b);
+const result = tab.reduce(function(prev, current) { return prev * current });
+const result = tab.reduce((prev, current) => prev * current); // ZAPIS Z ES6
 
 //1 iteracja => prev = 3,  curr = 2
 //2 iteracja => prev = 6,  curr = 4

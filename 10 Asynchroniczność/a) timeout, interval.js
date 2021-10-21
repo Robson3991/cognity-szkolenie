@@ -21,7 +21,7 @@ setTimeout(consolelog, 2000, 'Luty', 2);
 
 // 4. setInterval - kod wykonywany cyklicznie co określony czas
 
-const interval = setInterval(() => {
+const interval = setInterval(function() {
     console.log("console.log co jedną sekundę");
 }, 1000);
 

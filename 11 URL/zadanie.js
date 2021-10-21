@@ -7,7 +7,7 @@ function getParams() {
     const url = window.location.search;
     const obj = {}
 
-    url.substring(1).split('&').map(item => {
+    url.substring(1).split('&').map(function(item) {
         const arr = item.split('=');
         obj[arr[0]] = arr[1];
     });
