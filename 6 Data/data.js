@@ -10,6 +10,9 @@ console.log( now.getSeconds() )
 console.log( now.getMilliseconds() )
 console.log( now.getTime() )
 
+
+now.getFullYear() + '-' + now.getMonth() + '-' + now.getDay() // 2021-19-10
+
 /* 
     getTime  -  liczba milisekund, która upłynęła od od godziny 00:00 1 stycznia 1970 roku.
                 Tak zwany czas unixowy
